@@ -31,7 +31,7 @@ The key contributions of this study include enhancing tracking-by-detection trac
 ## Results
 
 <p align="center">
-  <img src="Images/experiment2input.png" alt="Image 1" width="40%"/>
+  <img src="Images/experiment2input.png" alt="Image 1" width="42.5%"/>
   <img src="Images/experiment2output.png" alt="Image 2" width="45%"/>
 </p>
 
