@@ -15,8 +15,8 @@ The key contributions of this study include enhancing tracking-by-detection trac
 
 ## Table of Contents
 - [Software Requirements](#software-requirements)
-
-
+- [Model Flow Implemented](#Model-Flow-Implemented) 
+- [Results](#Results)
 ## Software Requirements
 - Python 3.7 or higher
 - OpenCV library (version 4.7.0)
@@ -25,7 +25,10 @@ The key contributions of this study include enhancing tracking-by-detection trac
 - YOLOv7 pre-trained weights (available at [[link](https://github.com/WongKinYiu/yolov7)])
 - Video file or webcam access for input
 
+## Model Flow Implemented
+![Detection and Tracking of Object](Images/alternative.png)
 
+## Results
 
 
 
