@@ -1,4 +1,5 @@
 # Object Detection and Tracking 
+![Detection and Tracking of Cricket Ball](Images/motivation2.png)
   The YOLOv7 model is the latest addition to the YOLO (You Only Look Once) family of single-stage object detectors. It incorporates a Darknet backbone to enhance image frames within the YOLO model. The model combines and mixes these features in the neck before transmitting them to the network's head. YOLOv7 predicts the locations and types of objects and generates bounding boxes accordingly. It utilizes non-maximum suppression (NMS) post-processing to refine its final predictions.
 
 One important consideration in YOLOv7 is memory usage and the extent to which gradients need to propagate across layers during back-propagation. Lower gradients facilitate more effective learning in the network. YOLOv7 employs an enhanced version of the ELAN computational block called E-ELAN as its last layer aggregator. Additionally, to accommodate different applications requiring varying precision and inference rates, object detection models are often provided in a series of scaled-up and scaled-down models. YOLOv7 incorporates layer concatenation while scaling both the depth and breadth of the network, preserving optimal model design across different sizes according to ablation studies.
@@ -17,6 +18,7 @@ The key contributions of this study include enhancing tracking-by-detection trac
 - [Software Requirements](#software-requirements)
 - [Model Flow Implemented](#Model-Flow-Implemented) 
 - [Results](#Results)
+  
 ## Software Requirements
 - Python 3.7 or higher
 - OpenCV library (version 4.7.0)
